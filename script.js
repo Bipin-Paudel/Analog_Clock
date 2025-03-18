@@ -1,6 +1,6 @@
 setInterval(()=>{
    let d = new Date();
-   let htime = d.getHours();
+   let htime = d.getHours()% 12;
    let mtime = d.getMinutes();
    let stime = d.getSeconds();
 
